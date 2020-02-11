@@ -8,5 +8,29 @@
     <artifactId>tsociety</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <dependencies>
+
+        <dependency>
+            <groupId>hu.virgo</groupId>
+            <artifactId>autotest-core</artifactId>
+            <version>${autotest.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <autotest.version>0.7.3-SNAPSHOT</autotest.version>
+        <surefire.version>2.19</surefire.version>
+    </properties>
+
+
 </project>
